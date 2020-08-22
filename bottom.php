@@ -21,31 +21,6 @@
 			<div class="col-lg-7 left-info">
 				<div class="map">
 					<div id="map"></div>
-					<script>
-						function initMap() {
-							var ulica = {lat: 52.2485329, lng: 21.095098000000007};
-
-							  var map = new google.maps.Map(document.getElementById('map'), {
-								zoom: 15,
-								center: ulica,
-								disableDefaultUI: true,
-								zoomControl: false,
-								mapTypeControl: false,
-								scaleControl: false,
-								streetViewControl: false,
-								rotateControl: false,
-								fullscreenControl: false
-							  });
-
-							var marker = new google.maps.Marker({
-							  position: ulica,
-							  map: map
-							});
-						}
-					</script>
-					<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqVvJxDsHpIIcgF9cmo8ScEX-nI8ZlXeI&callback=initMap"
-					type="text/javascript"></script>
-
 				</div>
 				<div class="data">
 					<h2>Kontakt</h2>
