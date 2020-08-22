@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'comic';
+    src: url('../assets/font/hinted-ComicSansMS.eot');
+    src: url('../assets/font/hinted-ComicSansMS.woff2') format('woff2'),
+         url('../assets/font/hinted-ComicSansMS.woff') format('woff'),
+         url('../assets/font/hinted-ComicSansMS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comic';
+    src: url('../assets/font/hinted-ComicSansMS-Bold.eot');
+    src: url('../assets/font/hinted-ComicSansMS-Bold.woff2') format('woff2'),
+         url('../assets/font/hinted-ComicSansMS-Bold.woff') format('woff'),
+         url('../assets/font/hinted-ComicSansMS-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comic';
+    src: url('../assets/font/hinted-ComicSansMS-BoldItalic.eot');
+    src: url('../assets/font/hinted-ComicSansMS-BoldItalic.woff2') format('woff2'),
+         url('../assets/font/hinted-ComicSansMS-BoldItalic.woff') format('woff'),
+         url('../assets/font/hinted-ComicSansMS-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'comic';
+    src: url('../assets/font/hinted-ComicSansMS-Italic.eot');
+    src: url('../assets/font/hinted-ComicSansMS-Italic.woff2') format('woff2'),
+         url('../assets/font/hinted-ComicSansMS-Italic.woff') format('woff'),
+         url('../assets/font/hinted-ComicSansMS-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
